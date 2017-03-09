@@ -26,7 +26,7 @@ def add_trappistp(sim, P0, dP0, T0, dT0, M0, dM0):
     
     M_at_epoch = M_at_trans - dM
     
-    a = cbrt(sim.G*mtrapa*P*P*days*days/(4.0*pi*pi))
+    a = (sim.G*mtrapa*P*P*days*days/(4.0*pi*pi))**(1.0/3.0)
     
     sim.add(m=M*mearth, a=a, M=M_at_epoch, omega=omega, Omega=Omega, e=e, inc=i)
 

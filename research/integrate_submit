@@ -1,0 +1,8 @@
+universe = vanilla
+executable = /home/wfarr/TRAPPIST1/research/integrate.py
+output = integrate.out
+error = integrate.err
+log = integrate.log
+getenv = true
+
+queue
