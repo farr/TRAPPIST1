@@ -1,0 +1,2 @@
+stable/*.bin filter=lfs diff=lfs merge=lfs -text
+unstable/*.bin filter=lfs diff=lfs merge=lfs -text
